@@ -1,0 +1,20 @@
+#game-form {
+    border-radius: 10px;
+    border: solid ;
+    border-color:#0275d8;
+    box-shadow: 10px 5px 5px #0275d8;
+}
+
+#h1-Title {
+    color:  #0275d8;
+    font-weight: normal;
+}
+
+#saved-game {
+    border-bottom: solid;
+    border-color: #0275d8
+}
+
+#card {
+    box-shadow: 6px 3px 3px #0275d8;
+}

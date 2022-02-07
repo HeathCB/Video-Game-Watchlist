@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WatchList</title>
+  <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+  <main>
+    <div class="container text-center">
+      <div class="row m-4">
+        <h1 id="h1-Title" class="display-4">Video Game WatchList</h1>
+        <p class="fs-5 text-muted">Add games your looking forward to below.</p>
+      </div>
+    </div>
+  
+  <div class="container">
+    <form id="game-form" class="p-4 m-4 row">
+      <div class="form-group col-md-4 my-2">
+        <label for="name">Title</label>
+        <input required autocomplete="off" type="text" id="name" class="form-control" placeholder="e.g., Dying Light 2">
+      </div>
+      <div class="form-group col-md-4 my-2">
+        <label for="genre">Genre</label>
+        <input required autocomplete="off" type="text" id="genre" class="form-control" placeholder="e.g., MMORPG">
+      </div>
+      <div class="form-group col-md-4 my-2">
+        <label for="studio">Studio</label>
+        <input required autocomplete="off" type="text" id="studio" class="form-control" placeholder="e.g., Square Enix">
+      </div>
+      <div class="form-group col-md-4 my-2">
+        <label for="release-date">Release Date</label>
+        <input required autocomplete="off" type="text" id="release-date" class="form-control" placeholder="e.g., Oct. 2022">
+      </div>
+      <div class="form-group col-md-4 my-2">
+        <label for="price">Price</label>
+        <input required autocomplete="off" type="text" id="price" class="form-control" placeholder="e.g., $59.99">
+      </div>
+      <div class="form-group col-md-4 my-2">
+        <label for="note">Notes (optional)</label>
+        <input autocomplete="off" type="text" id="note" class="form-control">
+      </div>
+      <div class="form-group mt-4">
+        <input type="submit" value="Add Game" class="btn btn-outline-primary">
+        <input type="button" value="Update a Game" class="btn btn-outline-warning">
+      </div>
+
+    </form>
+    <div class="container">
+      <div id="saved-game"class="row m-4">
+        <p class="h3 text-primary">Saved Games</p>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mx-4 my-6 text-center" id="game-container">
+    </div>
+  </div>
+  </main>
+</body>
+    <script src="App.js"></script>
+</html>
