@@ -5,3 +5,8 @@ a.	Application should have at least 1 entity per team member
 b.	Use a form to add new entities
 c.	Build a way for users to update or delete entities
 d.	Use Bootstrap and CSS to style your project
+
+Todo List:
+Fix update functions
+Finishing touches to Style
+
